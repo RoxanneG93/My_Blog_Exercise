@@ -1,16 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=K2D:400,400i,700);
 
 body {
   width: 80%;
   border: 20px solid #ffc27c;
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 20px;
+  font-family: 'K2D', sans-serif;
   margin: 20px auto;
   max-width: 700px;
+  background-color: #eef7d2;
+}
+
+.post-wrapper {
+  background-color: white;
 }
 
 .post {
-  margin-bottom: 20px;
+  padding: 25px;
 }
 
 .date {
@@ -35,4 +39,5 @@ hr{
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 90%;
 }
